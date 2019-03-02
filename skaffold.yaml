@@ -1,0 +1,9 @@
+apiVersion: skaffold/v1beta6
+kind: Config
+build:
+  artifacts:
+    - image: node-app
+deploy:
+  kubectl:
+    manifests:
+      - k8s-app.yml

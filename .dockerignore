@@ -1,0 +1,4 @@
+node_modules
+README.md
+skaffold.yaml
+k8s-app.yml
